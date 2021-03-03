@@ -1,0 +1,9 @@
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LstDoblementeEnlazada.deps.json
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LstDoblementeEnlazada.dll
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LstDoblementeEnlazada.pdb
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.csprojAssemblyReference.cache
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.AssemblyInfoInputs.cache
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.AssemblyInfo.cs
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.csproj.CoreCompileInputs.cache
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.dll
+C:\Users\casa\source\repos\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LstDoblementeEnlazada.pdb

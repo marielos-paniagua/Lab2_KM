@@ -1,8 +1,21 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using Lab2_KM.Utils;
+@{ ViewData["Title"] = "Data Loader"; }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="header center orange-text">Ingresar cliente</h1>
+<div class="row center">
+    <h5 class="header col s12 light">Ingresar datos del cliente</h5>
+
 </div>
+
+<div class="input-field col s12">
+    <form action="@Url.Action("Index", "Home")" method="post">
+
+
+        <button class="btn waves-effect waves-light center" type="submit" name="action">
+            Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+</div>
+
+

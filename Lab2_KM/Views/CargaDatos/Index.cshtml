@@ -1,0 +1,21 @@
+﻿@using Lab2_KM.Utils;
+@{ ViewData["Title"] = "Data Loader"; }
+
+<h1 class="header center orange-text">Carga de datos</h1>
+<div class="row center">
+    <h5 class="header col s12 light">Seleccionar archivo</h5>
+
+</div>
+
+<div class="input-field col s12">
+    <form action="@Url.Action("Index", "CargaDatos")" method="post">
+       
+
+        <button class="btn waves-effect waves-light center" type="submit" name="action">
+            Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+</div>
+
+

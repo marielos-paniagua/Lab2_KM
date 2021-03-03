@@ -1,0 +1,32 @@
+﻿@using Lab2_KM.Utils;
+@{
+    ViewData["Title"] = "File loader";
+}
+
+<h1 class="header center orange-text">Carga de Datos</h1>
+<div class="row center">
+    <h5 class="header col s12 light">Carga inventario de medicamentos</h5>
+</div>
+
+
+<form enctype="multipart/form-data" action="@Url.Action("cargaArchivo", "CargaDatos")" class="col s12" method="post">
+    <div class="row">
+        <label>Selector de Archivo</label>
+        <div class="file-field input-field">
+            <div class="btn">
+                <span>Seleccionar</span>
+                <input type="file" name="file" />
+            </div>
+
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text"
+                       placeholder="Archivo subido" />
+            </div>
+        </div>
+    </div>
+    <button class="btn waves-effect waves-light center" type="submit" name="action">
+        Submit
+        <i class="material-icons right">send</i>
+    </button>
+</form>
+

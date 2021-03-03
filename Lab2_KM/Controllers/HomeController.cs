@@ -6,32 +6,50 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Lab2_KM.Utils;
+using Microsoft.AspNetCore.Http;
 
 namespace Lab2_KM.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public ActionResult Index(IFormCollection collection)
+        {
+            return RedirectToAction("Create", "Home");
+        }
+
+        // GET: ClientController/Create
+        public ActionResult Create()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        // POST: ClientController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            try
+            {
+                var newClient = new Models.Client
+                {
+                    nombre = collection["nombre"],
+                    apellido = collection["apellido"],
+                    nit = Convert.ToInt32(collection["nit"])
+                };
+                Storage.Instance.ClientList.Add(newClient);
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
     }
 }
