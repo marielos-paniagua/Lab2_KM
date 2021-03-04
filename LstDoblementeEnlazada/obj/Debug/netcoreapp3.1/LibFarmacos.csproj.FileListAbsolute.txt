@@ -1,0 +1,9 @@
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.deps.json
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.dll
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.pdb
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.csprojAssemblyReference.cache
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.AssemblyInfo.cs
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.dll
+C:\Users\HP\Downloads\Lab2_KM\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.pdb

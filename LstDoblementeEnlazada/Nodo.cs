@@ -2,26 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LstDoblementeEnlazada
+namespace LibFarmacos
 {
     public class Nodo<T>
-    {
-        public T id { get; set; }
-        public T nombre { get; set; }
-        public T descripcion { get; set; }
-        public T casa_productora { get; set; }
-        public T precio { get; set; }
-        public T existencia { get; set; }
+    { 
+        public Nodo<T> HijoIzquierdo { get; set; }
 
-        public Nodo<T> nodoAnterior { get; set; }
-
-        public Nodo<T> nodoSiguiente { get; set; }
+        public Nodo<T> HijoDerecho { get; set; }
 
         // Constructor
         public Nodo()
         {
-            nodoAnterior = null;
-            nodoSiguiente = null;
+            HijoIzquierdo = null;
+            HijoDerecho = null;
+            
         }
+        public T valorFarmaco { get; set; }
     }
 }

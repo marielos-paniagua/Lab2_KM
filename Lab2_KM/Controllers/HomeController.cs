@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Lab2_KM.Utils;
+
 using Microsoft.AspNetCore.Http;
 
 namespace Lab2_KM.Controllers
@@ -15,6 +16,23 @@ namespace Lab2_KM.Controllers
     {
         public IActionResult Index()
         {
+            //FarmacoArbol test1 = new FarmacoArbol
+            //{
+            //    id = 1,
+            //    NombreFarmaco = "depo provera"
+            //};
+
+            //FarmacoArbol test2 = new FarmacoArbol
+            //{
+            //    id = 2,
+            //    NombreFarmaco = "Prueba 2"
+            //};
+
+
+            //Storage.Instance.ArbolB.insertar(test1, test1.CompararNombreF);
+
+            //Storage.Instance.ArbolB.insertar(test2, test2.CompararNombreF);
+
             return View();
         }
 

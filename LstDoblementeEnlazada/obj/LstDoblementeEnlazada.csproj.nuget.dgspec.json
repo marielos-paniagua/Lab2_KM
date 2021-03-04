@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {}
+    "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {
+    "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
         "projectName": "LstDoblementeEnlazada",
-        "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
-        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,7 +30,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

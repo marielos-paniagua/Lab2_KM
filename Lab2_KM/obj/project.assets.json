@@ -1798,14 +1798,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "LstDoblementeEnlazada/1.0.0": {
+      "LibFarmacos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/LstDoblementeEnlazada.dll": {}
+          "bin/placeholder/LibFarmacos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LstDoblementeEnlazada.dll": {}
+          "bin/placeholder/LibFarmacos.dll": {}
         }
       }
     }
@@ -6072,33 +6072,38 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "LstDoblementeEnlazada/1.0.0": {
+    "LibFarmacos/1.0.0": {
       "type": "project",
-      "path": "../LstDoblementeEnlazada/LstDoblementeEnlazada.csproj",
-      "msbuildProject": "../LstDoblementeEnlazada/LstDoblementeEnlazada.csproj"
+      "path": "../LstDoblementeEnlazada/LibFarmacos.csproj",
+      "msbuildProject": "../LstDoblementeEnlazada/LibFarmacos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LstDoblementeEnlazada >= 1.0.0",
+      "LibFarmacos >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\casa\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
       "projectName": "Lab2_KM",
-      "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
-      "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\Lab2_KM\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6109,10 +6114,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {
-              "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj"
+            "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
+              "projectPath": "C:\\Users\\HP\\Downloads\\Lab2_KM\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj"
             }
           }
         }
@@ -6125,7 +6129,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -6150,7 +6153,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

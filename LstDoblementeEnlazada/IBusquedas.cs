@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LstDoblementeEnlazada
+namespace LibFarmacos
 {
     public interface IBusquedas<T>
     {

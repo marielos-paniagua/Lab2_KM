@@ -1,0 +1,30 @@
+﻿@using Lab2_KM.Utils;
+@*@using LstDoblementeEnlazada;
+@model ListaDobleEnl<string>;*@
+
+@{ ViewData["Title"] = "Medicamentos"; }
+
+<h1 class="header center orange-text">Índice</h1>
+<div class="row center">
+    <h5 class="header col s12 light">Índice de Fármacos</h5>
+
+</div>
+
+<div class="row">
+    @*{ 
+    @if (Model.nodoRaiz != null)
+    {
+        Nodo<string> nodoActual = new Nodo<string>();
+        nodoActual = Model.nodoRaiz;
+        while (nodoActual != null)
+        {
+<ul class="collection with-header col s3">
+    <li class="collection-item">Club: @nodoActual.id</li>
+    <li class="collection-item">Posicion: @nodoActual.nombre</li>
+    @*<li class="collection-item center-align"><a href="/Jugador/eliminarJugadorArtesanal/@nodoActual.first_name"><i class="small material-icons red-text">delete</i></a> <a href="/Jugador/listaArtesanal"><i class="small material-icons blue-text">edit</i></a></li>*@
+</ul>nodoActual = nodoActual.nodoSiguiente;
+            }
+        }
+    }
+</div>
+
