@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj": {}
+    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
         "projectName": "Lab2_KM",
-        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
         "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\obj\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\Lab2_KM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
-                "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj"
+              "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
+                "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj",
         "projectName": "LibFarmacos",
-        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\LibFarmacos.csproj",
         "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\obj\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM\\LstDoblementeEnlazada\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",

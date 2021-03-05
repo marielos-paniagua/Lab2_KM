@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Lab2_KM.Utils
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,7 +17,13 @@
                 <a id="logo-container" class="brand-logo" asp-controller="Home" asp-action="Index">Lab2</a>
 
                 <ul class="right hide-on-med-and-down">
-                    <li><a asp-controller="CargaDatos" asp-action="Index">Cargar inventario</a></li>
+                    <li>
+                        <a asp-controller="CargaDatos" asp-action="Index">
+                            <i class="material-icons white-text ">shopping_cart</i>
+                            <small class="notification-badge red">@Storage.Instance.listaFarmacos.Count</small>
+                            
+                        </a>
+                    </li>
                 </ul>
 
                 <ul id="nav-mobile" class="sidenav">

@@ -18,6 +18,8 @@ namespace Lab2_KM.Models
 
         public int existencia { get; set; }
 
-      
+        public int compararFarmaco(InventarioFarmacos farmaco, string ID) {
+            return farmaco.Id.CompareTo(ID);
+        }
     }
 }

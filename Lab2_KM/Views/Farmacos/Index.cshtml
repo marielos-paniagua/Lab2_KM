@@ -1,6 +1,11 @@
 ﻿@using Lab2_KM.Utils;
 @using Lab2_KM.Models;
 
+
+
+
+
+
 @{
     void InOrder(LibFarmacos.Nodo<FarmacoArbol> nodoFarmaco)
     {
@@ -21,9 +26,9 @@
                     <p>@farmaco.NombreFarmaco</p>
                 </div>
                 <div class="card-action">
-                    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>Agregar A Pedido</a>
+                    <a class="waves-effect waves-light btn" href="/Farmacos/DataFarmaco?ID=@farmaco.id&NOMBRE=@farmaco.NombreFarmaco"><i class="material-icons left">cloud</i>Agregar A Pedido</a>
 
-                    
+
                 </div>
             </div>
         </div>
