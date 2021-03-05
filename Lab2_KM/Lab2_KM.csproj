@@ -9,7 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LstDoblementeEnlazada\LstDoblementeEnlazada.csproj" />
+    <ProjectReference Include="..\LstDoblementeEnlazada\LibFarmacos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LstDoblementeEnlazada">
+      <HintPath>..\..\..\Lab1_ED_MK-main (1)\Lab1_ED_MK-main\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LstDoblementeEnlazada.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -24,8 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "Lab2_KM/1.0.0": {
         "dependencies": {
-          "LstDoblementeEnlazada": "1.0.0",
+          "LibFarmacos": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "LstDoblementeEnlazada": "1.0.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1536,9 +1537,20 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "LstDoblementeEnlazada/1.0.0": {
+      "LibFarmacos/1.0.0": {
         "runtime": {
-          "LstDoblementeEnlazada.dll": {}
+          "LibFarmacos.dll": {}
+        },
+        "compile": {
+          "LibFarmacos.dll": {}
+        }
+      },
+      "LstDoblementeEnlazada/1.0.0.0": {
+        "runtime": {
+          "LstDoblementeEnlazada.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "LstDoblementeEnlazada.dll": {}
@@ -3993,8 +4005,13 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "LstDoblementeEnlazada/1.0.0": {
+    "LibFarmacos/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LstDoblementeEnlazada/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yT0vf/ZqwtFS5DcturRxfEioPk0d3eESS8IOPxbaGYJHgaD9nW4U35pjreOqNA+YkzmNUfpQTIkiAhjRhqeZPQ==",
+  "dgSpecHash": "xkYB+ABvB5o/cJkw34Mb/lKnx5wzvVKWIhW0hUJi3eP3zQLgjXMdBlPs7RYifnCLhfhYKs9NzZuVb/gZ/5nqfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
+  "projectFilePath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\casa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\casa\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

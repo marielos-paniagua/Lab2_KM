@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Lab2_KM.Models;
 using LstDoblementeEnlazada;
+using LibFarmacos;
 
 namespace Lab2_KM.Utils
 {
@@ -20,8 +21,11 @@ namespace Lab2_KM.Utils
                 return _instance;
             }
         }
-        
-        public ListaDobleEnl<string> listaArtesanal = new ListaDobleEnl<string>();
+
+        public ListaDobleEnl<InventarioFarmacos> listaArtesanal = new ListaDobleEnl<InventarioFarmacos>();
+
+
+        public ArbolBinario<FarmacoArbol> ArbolB = new ArbolBinario<FarmacoArbol>();
         public List<Client> ClientList = new List<Client>();         
     }
 }

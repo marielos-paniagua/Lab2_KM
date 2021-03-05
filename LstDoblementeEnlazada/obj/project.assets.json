@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
-      "projectName": "LstDoblementeEnlazada",
-      "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj",
+      "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj",
+      "projectName": "LibFarmacos",
+      "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj",
       "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\obj\\",
+      "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",

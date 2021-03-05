@@ -1798,14 +1798,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "LstDoblementeEnlazada/1.0.0": {
+      "LibFarmacos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/LstDoblementeEnlazada.dll": {}
+          "bin/placeholder/LibFarmacos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LstDoblementeEnlazada.dll": {}
+          "bin/placeholder/LibFarmacos.dll": {}
         }
       }
     }
@@ -6072,15 +6072,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "LstDoblementeEnlazada/1.0.0": {
+    "LibFarmacos/1.0.0": {
       "type": "project",
-      "path": "../LstDoblementeEnlazada/LstDoblementeEnlazada.csproj",
-      "msbuildProject": "../LstDoblementeEnlazada/LstDoblementeEnlazada.csproj"
+      "path": "../LstDoblementeEnlazada/LibFarmacos.csproj",
+      "msbuildProject": "../LstDoblementeEnlazada/LibFarmacos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LstDoblementeEnlazada >= 1.0.0",
+      "LibFarmacos >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
@@ -6090,11 +6090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
+      "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj",
       "projectName": "Lab2_KM",
-      "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\Lab2_KM.csproj",
+      "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\Lab2_KM.csproj",
       "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\Lab2_KM\\obj\\",
+      "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\Lab2_KM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6111,8 +6111,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj": {
-              "projectPath": "C:\\Users\\casa\\source\\repos\\Lab2_KM\\LstDoblementeEnlazada\\LstDoblementeEnlazada.csproj"
+            "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj": {
+              "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\Lab2_KM-Carga\\LstDoblementeEnlazada\\LibFarmacos.csproj"
             }
           }
         }
