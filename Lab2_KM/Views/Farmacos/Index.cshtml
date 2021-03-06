@@ -1,43 +1,37 @@
 ﻿@using Lab2_KM.Utils;
 @using Lab2_KM.Models;
+@model Lab2_KM.Models.paginacion
 
 
 
 
+@foreach (var farmaco in Model.pags())
+{
+    <div class="card horizontal">
+        <div class="card-stacked">
+            <div class="card-content">
+                <p>@farmaco.NombreFarmaco</p>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn" href="/Farmacos/DataFarmaco?ID=@farmaco.id&NOMBRE=@farmaco.NombreFarmaco"><i class="material-icons left">cloud</i>Agregar A Pedido</a>
 
 
-@{
-    void InOrder(LibFarmacos.Nodo<FarmacoArbol> nodoFarmaco)
-    {
-        if (nodoFarmaco != null)
-        {
-            InOrder(nodoFarmaco.HijoIzquierdo);
-            mostrarContenido(nodoFarmaco.valorFarmaco);
-            InOrder(nodoFarmaco.HijoDerecho);
-        }
-    };
-
-
-    void mostrarContenido(FarmacoArbol farmaco)
-    {
-        <div class="card horizontal">
-            <div class="card-stacked">
-                <div class="card-content">
-                    <p>@farmaco.NombreFarmaco</p>
-                </div>
-                <div class="card-action">
-                    <a class="waves-effect waves-light btn" href="/Farmacos/DataFarmaco?ID=@farmaco.id&NOMBRE=@farmaco.NombreFarmaco"><i class="material-icons left">cloud</i>Agregar A Pedido</a>
-
-
-                </div>
             </div>
         </div>
-
-    }
-
-    InOrder(Storage.Instance.ArbolB.padre);
+    </div>
 }
 
+<ul class="pagination">
+    <li class="disabled"><a><i class="material-icons">chevron_left</i></a></li>
+    
+    @for (int i = 1; i <= Model.paginas(); i++)
+    {
+        <li class="waves-effect @(i== Model.paginaActual ? "active": "")">
+            <a href="@Url.Action("Index", new { page = i})">@i</a>
+        </li>
+    }
+    <li class="waves-effect"><a><i class="material-icons">chevron_right</i></a></li>
+</ul>
 
 
 

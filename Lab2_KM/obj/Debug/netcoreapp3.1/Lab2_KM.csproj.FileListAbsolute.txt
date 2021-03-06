@@ -448,8 +448,6 @@ C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\CargaDatos\Index.cshtml.g.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\CargaDatos\listaArtesanal.cshtml.g.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Farmacos\Index.cshtml.g.cs
-C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
-C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -462,3 +460,7 @@ C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Lab2_KM.cs
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Lab2_KM.dll
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Lab2_KM.pdb
 C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Lab2_KM.genruntimeconfig.cache
+C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Index.cshtml.g.cs
+C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Farmacos\buscarFarmaco.cshtml.g.cs
+C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Farmacos\ResultadoBusqueda.cshtml.g.cs
+C:\Users\casa\Desktop\TVisual\Lab2_KM\Lab2_KM\obj\Debug\netcoreapp3.1\Razor\Views\Farmacos\abastecer.cshtml.g.cs

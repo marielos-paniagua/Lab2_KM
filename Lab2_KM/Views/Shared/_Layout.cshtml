@@ -14,20 +14,42 @@
     <header>
         <nav class="ligth-blue lifhten-1" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" class="brand-logo" asp-controller="Home" asp-action="Index">Lab2</a>
+                <a id="logo-container" class="brand-logo" asp-controller="Farmacos" asp-action="Index">Lab2</a>
 
                 <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a asp-controller="CargaDatos" asp-action="Index">
-                            <i class="material-icons white-text ">shopping_cart</i>
-                            <small class="notification-badge red">@Storage.Instance.listaFarmacos.Count</small>
-                            
+                    <li class="">
+                        <a asp-controller="Pedido" asp-action="Index">
+                            Pedidos
+                            <span class="teal badge white-text">@Storage.Instance.listaFarmacos.Count</span>
+
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a asp-controller="Farmacos" asp-action="buscarFarmaco">
+                            Buscar Farmaco
+
                         </a>
                     </li>
                 </ul>
 
+                
+
                 <ul id="nav-mobile" class="sidenav">
-                    <li><a href="#">Menu</a></li>
+                    <li class="">
+                        <a asp-controller="Pedido" asp-action="Index">
+                            Pedidos
+                            <span class="teal badge">@Storage.Instance.listaFarmacos.Count</span>
+
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a asp-controller="Farmacos" asp-action="buscarFarmaco">
+                            <p>Buscar Farmaco</p>
+
+                        </a>
+                    </li>
                 </ul>
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>

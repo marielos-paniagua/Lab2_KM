@@ -1,0 +1,28 @@
+﻿@model Lab2_KM.Models.InventarioFarmacos
+
+
+<div class="card horizontal">
+    <div class="card-stacked">
+        <div class="card-content">
+            <p>@Model.NombreFarmaco</p>
+        </div>
+        <div class="card-action flex-column">
+            <p>Descripcion: @Model.descripcion</p>
+            <p>Casa Productora: @Model.CasaProductora</p>
+            <p>Existencia: @Model.existencia</p>
+            <p>Precio: @Model.precio</p>
+
+            @{
+                if (Model.existencia == 0)
+                {
+                    <a class="waves-effect waves-light btn red" href="/Farmacos/abastecerFarmaco?nombreFarmaco=@Model.NombreFarmaco"><i class="material-icons left">cloud</i>Abastecer</a>
+                }
+                else
+                {
+                    <a class="waves-effect waves-light btn" href="/Farmacos/DataFarmaco?ID=@Model.Id&NOMBRE=@Model.NombreFarmaco"><i class="material-icons left">cloud</i>Agregar A Pedido</a>
+                }
+            }
+
+        </div>
+    </div>
+</div>

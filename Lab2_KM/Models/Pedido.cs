@@ -13,6 +13,6 @@ namespace Lab2_KM.Models
         public string  nit { get; set; }
 
         
-        public double total { get; set; }
+        
     }
 }

@@ -1,0 +1,45 @@
+﻿@using Lab2_KM.Utils
+
+@{ 
+    double  total = 0.0;
+}
+<div class="row">
+    <form class="col s12" method="post" action="@Url.Action("Index","Pedido")">
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="cliente" type="text" name="Cliente">
+                <label for="cliente">Cliente</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="direccion" type="text" name="Direccion">
+                <label for="direccion">Direccion</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="nit" type="text" name="Nit">
+                <label for="nit">Nit</label>
+            </div>
+        </div>
+
+        <ul class="collection">
+            @foreach (var item in Storage.Instance.listaFarmacos)
+            {
+
+                <li class="collection-item">@item.NombreFarmaco</li>
+                { 
+                    total = total + Double.Parse(item.precio.Split('$')[1]);
+                }
+            }
+        </ul>
+
+        <h1 class="center orange-text">Total: $@total</h1>
+
+        <button class="btn waves-effect waves-light" type="submit">
+            Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </form>
+</div>

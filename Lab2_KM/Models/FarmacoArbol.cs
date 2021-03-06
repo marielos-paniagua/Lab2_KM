@@ -17,5 +17,15 @@ namespace Lab2_KM.Models
         {
             return InventarioF.NombreFarmaco.CompareTo(InventarioF2.NombreFarmaco);
         };
+
+        public int buscarFarmacoBinario(FarmacoArbol InventarioF, string InventarioF2)
+        {
+            return InventarioF2.CompareTo(InventarioF.NombreFarmaco);
+        }
+
+        public int buscarEliminacionFarmacoBinario(string InventarioF2, FarmacoArbol InventarioF)
+        {
+            return InventarioF2.CompareTo(InventarioF.NombreFarmaco);
+        }
     }
 }

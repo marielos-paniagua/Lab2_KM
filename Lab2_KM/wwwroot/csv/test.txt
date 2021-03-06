@@ -1,0 +1,100 @@
+id,nombre,descripcion,casa_productora,precio,existencia
+1,REMEDY Calazime Skin Protectant,"Adverse effect of amphetamines, subsequent encounter","Medline Industries, Inc.",$540.21,10
+2,LOESTRIN Fe 1/20,Asymptomatic varicose veins of right lower extremity,"Teva Women's Health, Inc.",$825.55,5
+3,Milk of Magnesia,"Disp fx of lateral epicondyl of r humer, 7thP",Walgreen Company,$937.66,2
+5,Colloidal Silver,"Unspecified injury of lung, bilateral, initial encounter",Apotheca Company,$514.56,3
+6,Venlafaxine,Other superficial bite of unspecified back wall of thorax,Clinical Solutions Wholesale,$858.27,11
+7,Prednisone,"Fibrous dysplasia (monostotic), unspecified shoulder",Qualitest Pharmaceuticals,$159.61,5
+8,Regular Strength Aspirin EC,"Struck by falling object on oth powered watercraft, init","NCS HealthCare of KY, Inc dba Vangard Labs",$136.34,11
+9,Divalproex Sodium,Partial traumatic transphalangeal amputation of l rng fngr,Mylan Institutional Inc.,$336.21,9
+10,ControlRx,"Corrosion of second degree back of right hand, sequela",3M ESPE Dental Products,$699.66,13
+11,CITALOPRAM,"Milt op w thermal radn effect of nuclear weapon, milt, init","International Labs, Inc.",$328.92,5
+12,Solutions,"Injury of acoustic nerve, left side, subsequent encounter","Avon Products, Inc.",$734.89,6
+13,Treatment Set TS330359,"Laceration w/o fb of l idx fngr w damage to nail, subs","Antigen Laboratories, Inc.",$676.95,4
+14,Corlopam,Personal history of (healed) osteoporosis fracture,"Hospira, Inc.",$547.39,11
+15,ESIKA,"Adverse effect of unsp drug/meds/biol subst, subs","Ventura Corporation (San Juan, P.R)",$546.45,3
+16,Restless Mind,"Corrosion of second degree of left knee, initial encounter",King Bio Inc.,$114.82,15
+17,Quetiapine fumarate,"Burn of second degree of unspecified foot, sequela",Major Pharmaceuticals,$118.81,12
+18,Tri-Vitamin with Fluoride,Multiple fx of pelvis w unstable disrupt of pelvic ring,Sancilio & Company Inc,$209.88,3
+19,Lidocaine Hydrochloride,Rickettsialpox due to Rickettsia akari,REMEDYREPACK INC.,$814.86,7
+20,Acyclovir,Heat syncope,Bryant Ranch Prepack,$931.69,1
+21,SHAKING SMOOTHIE ALOE MASK,"Assault by hot fluids, subsequent encounter","NATURE REPUBLIC CO., LTD.",$786.55,6
+22,Fluconazole,"Crushing injury of left thumb, initial encounter",Citron Pharma LLC,$361.17,2
+23,Oil-Free Daily Face,"Cataract with neovascularization, left eye",Walgreen Company,$852.38,3
+24,Nitrofurantoin (monohydrate/macrocrystals),"Post-traumatic urethral stricture, male, meatal","Eon Labs, Inc.",$728.06,11
+25,MiraLAX,"Unsp open wound of left lesser toe(s) w damage to nail, init",Cardinal Health,$619.83,15
+26,Tilia Fe,"Mech compl of int fix of left femur, sequela","Watson Pharma, Inc.",$852.19,4
+27,Nabumetone,Anterior dislocation of left ulnohumeral joint,Par Pharmaceutical Inc.,$598.36,7
+28,TRUFFLE EX WRINKLE SLEEPING MASK,"Displ commnt fx shaft of unsp femr, 7thP","NATURE REPUBLIC CO., LTD.",$353.42,11
+29,Pradaxa,Other specified hereditary hemolytic anemias,Boehringer Ingelheim Pharmaceuticals Inc.,$336.73,12
+30,Ignatia Bryophyllum,"Pain due to nervous system prosth dev/grft, init",Uriel Pharmacy Inc.,$456.36,4
+31,Multi-Vitamin Fluoride Drops,"Unilateral post-traumatic osteoarthritis, unspecified hip","H.J. Harkins Company, Inc.",$295.99,7
+32,Doxycyclate Hyclate,Dissection of aorta,"Golden State Medical Supply, Inc.",$538.37,5
+33,Prednisone,Congenital renal artery stenosis,REMEDYREPACK INC.,$298.98,4
+34,Vicks VapoDrops,"Sprain of other specified parts of left knee, sequela",Procter & Gamble Manufacturing Company,$527.44,2
+35,Quality Choice Cold and Sore Throat,"Antepartum hemorrhage with afibrinogenemia, first trimester",Chain Drug Marketing Association,$688.82,9
+36,RHIZOPUS ARRHIZUS VAR ARRHIZUS,Drug-induced tremor,"ALK-Abello, Inc.",$658.24,4
+37,Noble Lion Medicated Balm,"Nondisplaced Zone I fracture of sacrum, sequela","ABBP (ARRINGTON, BATTLE, BELL & PERRY), LLC",$633.19,5
+38,dextroamphetamine sulfate,Underdosing of unspecified psychodysleptics,"Talec Pharma, LLC",$45.20,13
+39,"Pollens - Weeds and Garden Plants, Sagebrush, Mugwort Artemisia vulgaris","Insect bite (nonvenomous) of scrotum and testes, subs encntr",Jubilant HollisterStier LLC,$88.45,7
+40,TIGAN,"Episcleritis periodica fugax, left eye",REMEDYREPACK INC.,$789.04,2
+41,IQ Dental Mepivacaine,"Extreme immaturity of NB, gestatnl age 26 completed weeks",IQ Dental,$809.61,11
+42,CLADOSPORIUM SPHAEROSPERMUM,Oth place in single-family (private) house as place,"ALK-Abello, Inc.",$202.12,13
+43,Brontuss,Hemiplga following nontraumatic subarachnoid hemorrhage,Portal Inc.,$475.44,3
+44,4 in 1 Pressed Mineral SPF 15 Blush Medium,Deviated nasal septum,PUR MINERALS,$734.15,3
+45,Orapred,"Nondisp intartic fx unsp calcaneus, subs for fx w routn heal",Concordia Pharmaceuticals Inc.,$265.26,3
+46,Moore Medical Antacid,"Nondisp seg fx shaft of unsp tibia, 7thN",Moore Medical LLC,$172.60,1
+47,balance-n-brighten,"Ped w convey injured in collision w hv veh in traf, sequela",LAURA GELLER MAKE UP INC.,$121.28,5
+48,Secura EPC Skin Care Starter Kit,"Infection of intervertebral disc (pyogenic), lumbar region","Smith & Nephew, Inc.",$30.05,9
+49,Allergenic Extracts Standardized Mite,Encounter for examination and observation for oth reasons,"Greer Laboratories, Inc.",$98.30,7
+50,Laxative pills,"Disp fx of lateral malleolus of unsp fibula, 7thN",Freds Inc,$779.79,4
+51,Bio Argimony,"Toxic effect of cobra venom, accidental, init","BioActive Nutritional, Inc.",$634.71,4
+52,Xolox,Conjunctival hyperemia,Rebel Distributors Corp,$920.90,14
+53,HYDRACLEAR HYDRATING ACNE GEL,"Disp fx of lateral malleolus of r fibula, 7thG","KATE SOMERVILLE SKINCARE, LLC",$186.66,3
+54,Aqua Rush Serum,"Pnctr w/o fb of unsp eyelid and periocular area, sequela","AMI Cosmetic Co.,Ltd.",$756.15,15
+55,Saccharomyces,"Adverse effect of unsp drug/meds/biol subst, init","Antigen Laboratories, Inc.",$902.76,7
+56,FAST RELIEF ARTROSAMIN,"Displaced transverse fx shaft of right ulna, sequela",Chemco Corporation,$23.50,8
+57,flormar REBORN BB SUNSCREEN BROAD SPECTRUM SPF 30 CP07 Nude Beige,"Laceration without foreign body, right knee, init encntr",Kosan Kozmetik Sanayi ve Ticaret A.S.,$391.70,1
+58,MENOMUNE - A/C/Y/W-135 COMBINED,"Poisoning by antineopl and immunosup drugs, assault, sequela",Sanofi Pasteur Inc.,$502.97,9
+59,Navy Bean,"Person outside 3-whl mv inj in clsn w hv veh in traf, subs","Antigen Laboratories, Inc.",$30.64,1
+60,Exelon,"Toxic effect of methanol, assault, sequela","Physicians Total Care, Inc.",$755.38,2
+61,Amoxicillin,"Torus fracture of upper end of left humerus, init",Teva Pharmaceuticals USA Inc,$985.44,3
+62,ENALAPRIL MALEATE,Type 1 diabetes mellitus with other specified complication,Wockhardt USA LLC.,$674.64,5
+63,Hydrochlorothiazide,"Residual stage of open-angle glaucoma, unspecified eye",Carilion Materials Management,$169.53,6
+64,Gnaphalium Stannum,"Dislocation of sacroiliac and sacrococcygeal joint, init",Uriel Pharmacy Inc.,$857.20,6
+65,Tranexamic Acid,"Other specified injuries of thyroid gland, subs encntr","APP Pharmaceuticals, LLC",$623.09,1
+66,Metformin Hydrochloride,Oth diab with prolif diabetic rtnop with trctn dtch macula,"PD-Rx Pharmaceuticals, Inc.",$232.69,9
+67,Octreotide Acetate,"Oth fx shaft of rad, unsp arm, subs for clos fx w nonunion",SUN PHARMACEUTICAL INDUSTRIES LIMITED,$91.00,12
+68,Lorazepam,"Displ spiral fx shaft of l tibia, init for opn fx type I/2","Hospira, Inc.",$439.78,9
+69,Triple Antibiotic,Animal-rider injured in collision w rail trn/veh,Rite Aid Corporation,$95.94,14
+70,LISINOPRIL,"Displ lateral mass fx 1st cervcal vert, 7thD",Lake Erie Medical DBA Quality Care Products LLC,$300.58,14
+71,Desmopressin Acetate,"Pathological fracture, left finger(s)",BluePoint Laboratories,$376.26,3
+72,Allopurinol,Other superficial bite of right ring finger,Bryant Ranch Prepack,$620.40,4
+73,Dots Apple Cinnamon Anti-Bacterial Hand Sanitizer,Laceration of blood vessel of right index finger,ALILY (ZHANGZHOU) BATH PRODUCTS LTD.,$94.27,4
+74,OP Dark Tanning Gel 4,Fracture of lateral condyle of humerus,"Sun & Skin Care Research, LLC",$95.56,8
+75,GAS AND COLIC KIDS RELIEF,"Strain of left quadriceps muscle, fascia and tendon, subs",HOMEOLAB USA INC,$839.23,4
+76,FreshKote Lubricant Eye Drops,"Disp fx of l tibial spin, 7thM","FOCUS Laboratories, Inc.",$502.36,13
+77,Cough and Cold,"Traum hemor cereb, w LOC >24 hr w/o ret consc w surv, subs","Selder, S.A. de C.V.",$763.08,3
+78,Telmisartan,"Toxic effect of unsp gases, fumes and vapors, accidental","Glenmark Generics Inc., USA",$36.10,12
+79,Fire Ant,Other urethral stricture,"Nelco Laboratories, Inc.",$103.25,2
+80,Irbesartan,"Other physeal fracture of right calcaneus, init",American Health Packaging,$287.54,11
+81,Hydromorphone HCl,"Other specified injuries of unspecified foot, subs encntr",Cantrell Drug Company,$958.41,3
+82,Follistim AQ,"Other specified disorders of synovium and tendon, elbow",Organon USA Inc.,$244.36,5
+83,Bumetanide,"Nondisp fx of lateral condyle of right femur, init",Baxter Healthcare Corporation,$988.88,13
+84,Medi Stem Eye,"Lac w/o fb of r frnt wl of thorax w penet thor cavity, subs","AMI Cosmetic Co.,Ltd.",$618.38,2
+85,Metoclopramide,Laceration w/o fb of l little finger w damage to nail,American Health Packaging,$584.50,5
+86,OXYCODONE AND ACETAMINOPHEN,"Unsp fracture of right femur, subs for clos fx w malunion","Mallinckrodt, Inc.",$930.11,11
+87,Carvedilol,Other specified disorders of breast,Mylan Institutional Inc.,$689.86,5
+88,Meteoric Iron Prunus,Pilar and trichodermal cyst,Uriel Pharmacy Inc.,$261.04,15
+89,healthy accents multi symptom cold,"Nondisp fx of ant wall of l acetab, subs for fx w routn heal",DZA Brands LLC,$914.94,13
+90,Good Sense Childrens Pain and Fever,"Toxic effect of venom of black widow spider, self-harm, init",L. Perrigo Company,$758.38,6
+91,DR.ISAO VITA WHITE SERUM,"Adverse effect of antineoplastic and immunosup drugs, subs",IASO Inc,$419.56,1
+92,Sisal,Toxic effect of other specified inorganic substances,"Nelco Laboratories, Inc.",$584.33,15
+93,Nabumetone,"Exposure to ignition of oth clothing and apparel, subs","Blenheim Pharmacal, Inc.",$744.68,1
+94,Crest 3D White,Subluxation and dislocation of C1/C2 cervical vertebrae,The Procter & Gamble Manufacturing Company,$246.50,11
+95,Equate Cool and Heat,"Unsp athscl nonaut bio bypass of the extremities, left leg",Wal-Mart Stores Inc,$147.48,6
+96,donepezil hydrochloride,"Sltr-haris Type II physl fx upr end rad, unsp arm, 7thK",McKesson Packaging Services a business unit of McKesson Corporation,$76.99,9
+97,Pravastatin Sodium,"Laceration of dorsal vein of right foot, initial encounter","MedVantx, Inc.",$659.40,15
+98,Flurazepam,"Major depressive disorder, single episode","Golden State Medical Supply, Inc.",$484.67,15
+99,Retisert,"Unsp inj msl/fasc/tnd post grp at thi lev, unsp thigh, sqla",Bausch & Lomb Incorporated,$947.48,3
+100,Amlodipine besylate/atorvastatin calcium,Occup of 3-whl mv injured in clsn w statnry object nontraf,Mylan Pharmaceuticals Inc.,$755.96,7

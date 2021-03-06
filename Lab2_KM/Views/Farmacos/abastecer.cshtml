@@ -1,0 +1,22 @@
+﻿@using Lab2_KM.Models
+@model InventarioFarmacos
+
+<div class="row">
+    <form class="col s12" method="post" action="/Farmacos/abastecerFarmaco?NOMBRE=@Model.NombreFarmaco">
+
+        <h2 class="center red-text">@Model.NombreFarmaco</h2>
+
+        <div class="row">
+            <p class="range-field">
+                <label> Existencia </label>
+                <input type="range" name="Existencia" min="0" max="15" />
+            </p>
+        </div>
+
+            <button class="btn waves-effect waves-light" type="submit">
+                Submit
+                <i class="material-icons right">send</i>
+            </button>
+
+    </form>
+</div>
