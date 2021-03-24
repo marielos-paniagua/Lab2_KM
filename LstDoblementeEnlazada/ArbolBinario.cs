@@ -248,10 +248,9 @@ namespace LibFarmacos
 
         public void InOrder(Nodo<T> elemento) {
             if (elemento != null)
-            {
-                listaInOrder.Add(elemento.valorFarmaco);
+            {                
                 InOrder(elemento.HijoIzquierdo);
-
+                listaInOrder.Add(elemento.valorFarmaco);
                 InOrder(elemento.HijoDerecho);
 
                 

@@ -25,3 +25,12 @@ C:\Users\casa\Desktop\TVisual\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp
 C:\Users\casa\Desktop\TVisual\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.dll
 C:\Users\casa\Desktop\TVisual\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.pdb
 C:\Users\casa\Desktop\TVisual\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.deps.json
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.dll
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\bin\Debug\netcoreapp3.1\LibFarmacos.pdb
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.AssemblyInfoInputs.cache
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.AssemblyInfo.cs
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.dll
+C:\Users\casa\Desktop\Lab2_KM\LstDoblementeEnlazada\obj\Debug\netcoreapp3.1\LibFarmacos.pdb

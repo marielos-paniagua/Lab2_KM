@@ -56,7 +56,8 @@ namespace Lab2_KM.Controllers
             }
 
             Reader reader = new Reader(filePath);
-            Storage.Instance.ArbolB.ToString();
+            //Storage.Instance.ArbolB.ToString();
+            Storage.Instance.ArbolAVL.ToString();
             Storage.Instance.listaArtesanal.ToString();
 
             return RedirectToAction("Index", "Farmacos");

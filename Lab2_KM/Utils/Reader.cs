@@ -60,7 +60,7 @@ namespace Lab2_KM.Utils
 
                 farmaco.Id = finalRegexText[0];
                 farmaco.NombreFarmaco = finalRegexText[1];
-                farmaco.descripcion = finalRegexText[3];
+                farmaco.descripcion = finalRegexText[2];
                 farmaco.CasaProductora = finalRegexText[3];
                 farmaco.precio = finalRegexText[4];
                 farmaco.existencia = int.Parse(finalRegexText[5]);
@@ -80,7 +80,7 @@ namespace Lab2_KM.Utils
 
                 // Insercion Arbol B
 
-                Storage.Instance.ArbolB.insertar(nodoArbol, nodoArbol.CompararNombreF);
+                Storage.Instance.ArbolAVL.insertar(nodoArbol, nodoArbol.CompararNombreF);
             }
         }
     }

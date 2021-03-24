@@ -27,7 +27,7 @@ using Lab2_KM.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77a677a36530726c32ad72c647944bd6c338c844", @"/Views/Farmacos/ResultadoBusqueda.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e33c33f43dea5ae522b4c78139adeb018e06761b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05152f266e6400e9bcb174d0deccc7b0e9ec3f51", @"/Views/_ViewImports.cshtml")]
     public class Views_Farmacos_ResultadoBusqueda : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Lab2_KM.Models.InventarioFarmacos>
     {
         #pragma warning disable 1998

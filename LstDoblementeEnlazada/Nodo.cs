@@ -18,5 +18,7 @@ namespace LibFarmacos
             
         }
         public T valorFarmaco { get; set; }
+        public Nodo<T> Padre { get; set; }
+        public int Balance { get; set; }
     }
 }

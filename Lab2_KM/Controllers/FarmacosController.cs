@@ -14,16 +14,16 @@ namespace Lab2_KM.Controllers
         // GET: FarmacosController
         public ActionResult Index(int page = 1)
         {
-            if (Storage.Instance.ArbolB.listaInOrder.Count > 0)
+            if (Storage.Instance.ArbolAVL.listaInOrder.Count > 0)
             {
-                Storage.Instance.ArbolB.listaInOrder.Clear();
+                Storage.Instance.ArbolAVL.listaInOrder.Clear();
             }
             
-            Storage.Instance.ArbolB.InOrder(Storage.Instance.ArbolB.padre);
+            Storage.Instance.ArbolAVL.InOrder(Storage.Instance.ArbolAVL.padre);
             var paginacionFarmacos = new paginacion
             {
                 farmacosPorPagina = 50,
-                farmacos = Storage.Instance.ArbolB.listaInOrder,
+                farmacos = Storage.Instance.ArbolAVL.listaInOrder,
                 paginaActual = page
             };
 
@@ -65,8 +65,8 @@ namespace Lab2_KM.Controllers
             string busqueda = collection["Busqueda"];
 
 
-            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolB.Buscar(Storage.Instance.ArbolB.padre,
-                busqueda, Storage.Instance.ArbolB.padre.valorFarmaco.buscarFarmacoBinario);
+            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolAVL.Buscar(Storage.Instance.ArbolAVL.padre,
+                busqueda, Storage.Instance.ArbolAVL.padre.valorFarmaco.buscarFarmacoBinario);
 
             LstDoblementeEnlazada.Nodo<InventarioFarmacos> Busqueda = Storage.Instance.listaArtesanal.buscar(Storage.Instance.listaArtesanal.nodoRaiz,
                 nodoFarmacoEncontrado.valorFarmaco.id, Storage.Instance.listaArtesanal.nodoRaiz.elemento.compararFarmaco);
@@ -79,8 +79,8 @@ namespace Lab2_KM.Controllers
         [HttpGet]
         public ActionResult abastecerFarmaco(string nombreFarmaco)
         {
-            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolB.Buscar(Storage.Instance.ArbolB.padre,
-               nombreFarmaco, Storage.Instance.ArbolB.padre.valorFarmaco.buscarFarmacoBinario);
+            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolAVL.Buscar(Storage.Instance.ArbolAVL.padre,
+               nombreFarmaco, Storage.Instance.ArbolAVL.padre.valorFarmaco.buscarFarmacoBinario);
             
 
             LstDoblementeEnlazada.Nodo<InventarioFarmacos> Busqueda = Storage.Instance.listaArtesanal.buscar(Storage.Instance.listaArtesanal.nodoRaiz,
@@ -97,11 +97,11 @@ namespace Lab2_KM.Controllers
             int existencia = int.Parse(collection["Existencia"]);
 
 
-            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontradoAux = Storage.Instance.ArbolB.Buscar(Storage.Instance.ArbolB.padre,
-               NOMBRE, Storage.Instance.ArbolB.padre.valorFarmaco.buscarFarmacoBinario);
+            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontradoAux = Storage.Instance.ArbolAVL.Buscar(Storage.Instance.ArbolAVL.padre,
+               NOMBRE, Storage.Instance.ArbolAVL.padre.valorFarmaco.buscarFarmacoBinario);
 
-            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolB.Buscar(Storage.Instance.ArbolB.padre,
-               NOMBRE, Storage.Instance.ArbolB.padre.valorFarmaco.buscarFarmacoBinario);
+            LibFarmacos.Nodo<FarmacoArbol> nodoFarmacoEncontrado = Storage.Instance.ArbolAVL.Buscar(Storage.Instance.ArbolAVL.padre,
+               NOMBRE, Storage.Instance.ArbolAVL.padre.valorFarmaco.buscarFarmacoBinario);
 
             LstDoblementeEnlazada.Nodo<InventarioFarmacos> Busqueda = Storage.Instance.listaArtesanal.buscar(Storage.Instance.listaArtesanal.nodoRaiz,
                 nodoFarmacoEncontrado.valorFarmaco.id, Storage.Instance.listaArtesanal.nodoRaiz.elemento.compararFarmaco);
@@ -118,14 +118,14 @@ namespace Lab2_KM.Controllers
            
 
             // Eliminacion del farmaco del arbol B
-            Storage.Instance.ArbolB.Eliminar(Busqueda.elemento.NombreFarmaco, 
-                Storage.Instance.ArbolB.padre.valorFarmaco.buscarEliminacionFarmacoBinario);
+            Storage.Instance.ArbolAVL.Eliminar(Busqueda.elemento.NombreFarmaco, 
+                Storage.Instance.ArbolAVL.padre.valorFarmaco.buscarEliminacionFarmacoBinario);
 
 
            
 
-            Storage.Instance.ArbolB.insertar(nodoAuxiliar,
-              Storage.Instance.ArbolB.padre.valorFarmaco.CompararNombreF);
+            Storage.Instance.ArbolAVL.insertar(nodoAuxiliar,
+              Storage.Instance.ArbolAVL.padre.valorFarmaco.CompararNombreF);
 
             
 

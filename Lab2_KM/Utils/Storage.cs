@@ -26,6 +26,7 @@ namespace Lab2_KM.Utils
 
 
         public ArbolBinario<FarmacoArbol> ArbolB = new ArbolBinario<FarmacoArbol>();
+        public AVL<FarmacoArbol> ArbolAVL = new AVL<FarmacoArbol>();
         
 
         public paginacion pagination = new paginacion();

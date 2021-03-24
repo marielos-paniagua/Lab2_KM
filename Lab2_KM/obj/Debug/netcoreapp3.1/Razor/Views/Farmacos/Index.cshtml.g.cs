@@ -34,7 +34,7 @@ using Lab2_KM.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c8da2bb6fa6204a47691aaa1879559c9b72426f0", @"/Views/Farmacos/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e33c33f43dea5ae522b4c78139adeb018e06761b", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"05152f266e6400e9bcb174d0deccc7b0e9ec3f51", @"/Views/_ViewImports.cshtml")]
     public class Views_Farmacos_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Lab2_KM.Models.paginacion>
     {
         #pragma warning disable 1998
