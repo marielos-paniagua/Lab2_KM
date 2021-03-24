@@ -31,42 +31,43 @@ namespace LibFarmacos
         // Metodo para insertar los hijos ya sea izquierda o derecha
         public Nodo<T> insertar(Nodo<T> Nuevo, Nodo<T> Nodopadre, Comparison<T> compararFarmaco)
         {
-            if (compararFarmaco(Nuevo.valorFarmaco, Nodopadre.valorFarmaco) < 0)
+            bool seInserto = false;
+            while (!seInserto)
             {
-                if (Nodopadre.HijoIzquierdo == null)
+                if (compararFarmaco(Nuevo.valorFarmaco, Nodopadre.valorFarmaco) < 0)
                 {
-                    Nodopadre.HijoIzquierdo = Nuevo;
-                    Nodopadre.HijoIzquierdo.Padre = Nodopadre;
-                    Equilibrar(Nodopadre, true, true);
-                    return Nodopadre;
+                    if (Nodopadre.HijoIzquierdo == null)
+                    {
+                        Nodopadre.HijoIzquierdo = Nuevo;
+                        Nodopadre.HijoIzquierdo.Padre = Nodopadre;
+                        Equilibrar(Nodopadre, true, true);
+                        seInserto = true;
+                    }
+                    else
+                    {
+                        Nodopadre = Nodopadre.HijoIzquierdo;
+                    }
+                }
+                else if (compararFarmaco(Nuevo.valorFarmaco, Nodopadre.valorFarmaco) > 0)
+                {
+                    if (Nodopadre.HijoDerecho == null)
+                    {
+                        Nodopadre.HijoDerecho = Nuevo;
+                        Nodopadre.HijoDerecho.Padre = Nodopadre;
+                        Equilibrar(Nodopadre, false, true);
+                        seInserto = true;
+                    }
+                    else
+                    {
+                        Nodopadre = Nodopadre.HijoDerecho;
+                    }
                 }
                 else
                 {
-                    Nodopadre.HijoIzquierdo = insertar(Nuevo, Nodopadre.HijoIzquierdo, compararFarmaco);
                     return Nodopadre;
                 }
             }
-            else if (compararFarmaco(Nuevo.valorFarmaco, Nodopadre.valorFarmaco) > 0)
-            {
-                if (Nodopadre.HijoDerecho == null)
-                {
-                    Nodopadre.HijoDerecho = Nuevo;
-                    Nodopadre.HijoDerecho.Padre = Nodopadre;
-                    Equilibrar(Nodopadre, false, true);
-                    return Nodopadre;
-                }
-                else
-                {
-                    Nodopadre.HijoDerecho = insertar(Nuevo, Nodopadre.HijoDerecho, compararFarmaco);
-                    return Nodopadre;
-                }
-            }
-            else
-            {
-                return Nodopadre;
-            }
-
-
+            return Nodopadre;    
         }
 
         public void Eliminar(string Nombre, Func<string, T, int> compararFarmaco)
@@ -302,7 +303,7 @@ namespace LibFarmacos
                     terminar = true;
                 }
 
-                if (rota && (nodo.Padre != null) && !esNuevo)
+                if ((rota) && (nodo.Padre != null) && (!esNuevo))
                     nodo = nodo.Padre;
 
                 if (nodo.Padre != null)
